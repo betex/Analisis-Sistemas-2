@@ -1,0 +1,297 @@
+<html>
+<head>
+	<title>Solicitud</title>
+	<meta charset="utf-8" />
+	<style>
+		article{
+			display: inline-block;
+			vertical-align: top;
+		}
+		section{
+			max-width: 900px;
+			margin: 0 auto;
+		}
+		section#encabezado{
+			text-align: center;
+		}
+		fieldset{
+			max-width: 900px;
+			margin: 0 auto;
+			border: 0.1em #000 solid;
+		}
+		table#tabla{
+			width: 890px;
+		}
+		table#C, table#D, table#E{
+			text-align: center;
+			width: 295px;
+		}
+		input#txtNombre, input#txtApellido{
+			width: 350px;
+		}
+		input#txtDomicilio{
+			width: 500px;
+		}
+		input#txtDocumento, input#txtNumDoc, input#txtLugarExtension{
+			width: 285px;
+		}
+		.tablaCentrada{
+			text-align: center;
+			width: 295px;
+		}
+		.tabla-ancha{
+			width: 600px;
+		}
+		.tabla-ancho-completo{
+			width: 895px;
+		}
+		.inputTabla{
+			width: 285px;
+		}
+		.inputTabla-ancha{
+			width: 590px;
+		}
+		.inputTabla-ancho-completo{
+			width: 885px;
+		}
+	</style>
+</head>
+<body>
+	<section id="encabezado">
+		<table width="900" >
+			<tr>
+				<td class="izquierda"><center>COMANDO EN JEFE DE LAS FF.AA. DEL ESTADO<br/>Universidad Militar "Mcal. Bernardino Bilbao Rioja"<br/><u><strong>BOLIVIA</strong></u></center></td>
+				<td align="center"><strong>Formulario 002</strong></td>
+			</tr>
+		</table>
+		<h1>SOLICITUD PARA LA EXTENSIÓN DEL DIPLOMA DE POST-GRADO</h1>
+	</section>
+	<section>
+		<h2>I. IDENTIFICACIÓN PERSONAL</h2>
+	</section>
+	<fieldset>
+		<table id="tabla" border="1" cellpadding="8">
+			<tr>
+				<td>A. Grado Apellido y Nombres</td>
+			</tr>
+			<tr>
+				<td><input type="text" id="txtGrado" name="txtGrado" placeholder="Grado" />&nbsp;<input type="text" id="txtApellido" name="txtApellido" placeholder="Apellidos" />&nbsp;<input type="text" id="txtNombre" name="txtNombre" placeholder="Nombres" /></td>
+			</tr>
+		</table><br />
+		<table id="tabla" border="1" cellpadding="8">
+			<tr>
+				<td>B. Domiciliio - Ciudad - Teléfono de ref. en la ciudad de La Paz</td>
+			</tr>
+			<tr>
+				<td><input type="text" name="txtDomicilio" id="txtDomicilio" placeholder="Domicilio" /><input type="text" name="txtCiudad" id="txtCiudad" placeholder="Ciudad" /><input type="number" name="txtTelefono" id="txtTelefono" placeholder="Teléfono" /></td>
+			</tr>
+		</table><br />
+		<article>
+			<table border="1" id="C">
+				<tr>
+					<td>C. Documento</td>
+				</tr>
+				<tr>
+					<td><input type="text" name="txtDocumento" id="txtDocumento" placeholder="Documento" /></td>
+				</tr>
+			</table>
+		</article>
+		<article>
+			<table border="1" id="C">
+				<tr>
+					<td>D. Nro. de Doc.</td>
+				</tr>
+				<tr>
+					<td><input type="number" name="txtNumDoc" id="txtNumDoc" placeholder="Numero de documento" /></td>
+				</tr>
+			</table>
+		</article>
+		<article>
+			<table border="1" id="E">
+				<tr>
+					<td>E. Lugar de extención</td>
+				</tr>
+				<tr>
+					<td><input type="text" name="txtLugarExtension" id="txtLugarExtension" placeholder="Lugar de extensión" /></td>
+				</tr>
+			</table>
+		</article>
+		<br /><br />
+		<article>
+			<table border="1" id="F" class="tablaCentrada">
+				<tr>
+					<td>F. Fecha de nacimiento</td>
+				</tr>
+				<tr>
+					<td><input type="date" name="txtFechaNac" id="txtFechaNac" class="inputTabla" placeholder="Fecha" /></td>
+				</tr>
+			</table>
+		</article>
+		<article>
+			<table border="1" id="G" class="tablaCentrada">
+				<tr>
+					<td>G. Departamento</td>
+				</tr>
+				<tr>
+					<td><input type="text" name="txtDepartamento" id="txtDepartamento" class="inputTabla" placeholder="Departamento" /></td>
+				</tr>
+			</table>
+		</article>
+		<article>
+			<table border="1" id="H" class="tablaCentrada">
+				<tr>
+					<td>H. Provincia</td>
+				</tr>
+				<tr>
+					<td><input type="text" name="txtProvincia" id="txtProvincia" class="inputTabla" placeholder="Provincia" /></td>
+				</tr>
+			</table>
+		</article>
+		<br /><br />
+		<article>
+			<table border="1" id="H" class="tablaCentrada">
+				<tr>
+					<td>I. Localidad</td>
+				</tr>
+				<tr>
+					<td><input type="text" name="txtLocalidad" id="txtLocalidad" class="inputTabla" placeholder="Localidad" /></td>
+				</tr>
+			</table>
+		</article>
+		<article>
+			<table border="1" id="H" class="tablaCentrada">
+				<tr>
+					<td>J. Nacionalidad</td>
+				</tr>
+				<tr>
+					<td><input type="text" name="txtNacionalidad" id="txtNacionalidad" class="inputTabla" placeholder="Nacionalidad" /></td>
+				</tr>
+			</table>
+		</article>
+	</fieldset>
+	<section>
+		<h2>II. IDENTIFICACIÓN ACADEMICA</h2>
+	</section>
+	<fieldset>
+		<article>
+			<table border="1" id="" class="tablaCentrada tabla-ancha">
+				<tr>
+					<td>A. Univ. que otorgó el diploma Académico de Licenciatura</td>
+				</tr>
+				<tr>
+					<td><input type="text" name="txtUnivLicenciatura" id="txtUnivLicenciatura" class="inputTabla-ancha" placeholder="Universidad" /></td>
+				</tr>
+			</table>
+		</article>
+		<article>
+			<table border="1" id="" class="tablaCentrada">
+				<tr>
+					<td>B. Año que fue expedido</td>
+				</tr>
+				<tr>
+					<td><input type="number" name="txtAnioExpedido" id="txtAnioExpedido" class="inputTabla" placeholder="Año" /></td>
+				</tr>
+			</table>
+		</article>
+		<br /><br />
+		<article>
+			<table border="1" id="" class="tablaCentrada tabla-ancha">
+				<tr>
+					<td>C. Univ. que otorgó el titulo en Provisión Nacional</td>
+				</tr>
+				<tr>
+					<td><input type="text" name="txtUnivPnacional" id="txtUnivPnacional" class="inputTabla-ancha" placeholder="Universidad" /></td>
+				</tr>
+			</table>
+		</article>
+		<article>
+			<table border="1" id="" class="tablaCentrada">
+				<tr>
+					<td>D. Año que fue expedido</td>
+				</tr>
+				<tr>
+					<td><input type="number" name="txtAnioExpedidoPN" id="txtAnioExpedidoPN" class="inputTabla" placeholder="Año" /></td>
+				</tr>
+			</table>
+		</article>
+		<br /><br />
+		<article>
+			<table border="1" id="" class="tablaCentrada tabla-ancho-completo">
+				<tr>
+					<td>E. Denominación del documento en Provisión Nacional</td>
+				</tr>
+				<tr>
+					<td><input type="text" name="txtDenominacionPN" id="txtDenominacionPN" class="inputTabla-ancho-completo" placeholder="Denominación del documento en Provisión Nacional" /></td>
+				</tr>
+			</table>
+		</article>
+		<br /><br />
+		<article>
+			<table border="1" id="" class="tablaCentrada tabla-ancha">
+				<tr>
+					<td>F. Fecha de Ingreso a la U.A. de Postgrado</td>
+				</tr>
+				<tr>
+					<td><input type="date" name="txtFechaIngresoP" id="txtFechaIngresoP" class="inputTabla-ancha" placeholder="Fecha de ingreso" /></td>
+				</tr>
+			</table>
+		</article>
+		<article>
+			<table border="1" id="" class="tablaCentrada">
+				<tr>
+					<td>G. Fecha de Egreso U.A. de Postgrado</td>
+				</tr>
+				<tr>
+					<td><input type="date" name="txtFechaEgresoP" id="txtFechaEgresoP" class="inputTabla" placeholder="Fecha de egreso" /></td>
+				</tr>
+			</table>
+		</article>
+		<br /><br />
+		<article>
+			<table border="1" id="" class="tablaCentrada tabla-ancha">
+				<tr>
+					<td>H. Unidad académica de Postgrado</td>
+				</tr>
+				<tr>
+					<td><input type="text" name="txtUnidadAcademicaP" id="txttxtUnidadAcademicaP" class="inputTabla-ancha" placeholder="Unidad acdémica" /></td>
+				</tr>
+			</table>
+		</article>
+		<article>
+			<table border="1" id="" class="tablaCentrada">
+				<tr>
+					<td>I. N° de Registro de la UMFA</td>
+				</tr>
+				<tr>
+					<td><input type="number" name="txtNumRegistroUMFA" id="txtNumRegistroUMFA" class="inputTabla" placeholder="Número de registro" /></td>
+				</tr>
+			</table>
+		</article>
+		<br /><br />
+		<article>
+			<table border="1" id="" class="tablaCentrada tabla-ancha">
+				<tr>
+					<td>J. Fecha de trámite del Diplomado Académico</td>
+				</tr>
+				<tr>
+					<td><input type="date" name="txtFechaTramiteP" id="txtFechaTramiteP" class="inputTabla-ancha" placeholder="Fecha de trámite" /></td>
+				</tr>
+			</table>
+		</article>
+		<article>
+			<table border="1" id="" class="tablaCentrada">
+				<tr>
+					<td>K. N° de Fojas</td>
+				</tr>
+				<tr>
+					<td><input type="number" name="txtNumFojas" id="txtNumFojas" class="inputTabla" placeholder="Número de Fojas" /></td>
+				</tr>
+			</table>
+		</article>
+	</fieldset>
+	<br /><br /><br /><br />
+	<section align="center">
+		<h3>FIRMA DEL SOLICITANTE</h3>
+	</section>
+</body>
+</html>

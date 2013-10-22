@@ -9,6 +9,7 @@
 
 	if ($login->getEstatus() == true) 
 	{
+
 		echo $_SESSION["carnet"];
 		echo $_SESSION["nombre"];
 		echo $_SESSION["pass"];	 
@@ -21,7 +22,7 @@
 ?>
 
 <!DOCTYPE html>
-<html>
+<html> 
 <head>
 	<title>Principal</title>
 </head>

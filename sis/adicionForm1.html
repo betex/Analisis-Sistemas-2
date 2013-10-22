@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="php/bootstrap/css/bootstrap.css" />
+	<link rel="stylesheet" href="php/bootstrap/css/bootstrap.min.css" />
+	<style>
+		body{
+			background: #CCC;
+		}
+	</style>
+</head>
+<body>
+	<form action="php/guardarFormulario2.php" method="POST" enctype="multipart/form-data">
+		<center>
+			<table  width="800">
+				<tr>
+					<td><center>COMANDO EN JEFE DE LAS FF.AA. DEL ESTADO<br/>Universidad Militar "Mcal. Bernardino Bilbao Rioja"<br/><u><strong>BOLIVIA</strong></u></center></td>
+					<td><strong>Formulario 002</strong></td>
+				</tr>
+			</table>
+			
+			<br/>
+
+			<h3><u>SOLICITUD PARA LA EXTENSI&Oacute;N DEL DIPLOMADO DE MAESTR&Iacute;A Y DOCTORADO</u></h3>
+
+			<table border="0" cellspacing="0" cellpadding="9" width="800">
+				<tr>
+					<td><h4>I.  &nbsp;&nbsp;<u>IDENTIFICI&Oacute;N PERSONAL</u></h4></td>
+				</tr>
+				<tr>
+					<td><strong>A. GRADO (Profesi&oacute;n) APELLIDOS Y NOMBRES</strong><br/>
+					<input type="text" id="txtGrado" name="txtGrado" size="25" placeholder="Grado"/>
+					<input type="text" id="txtNombre" name="txtNombre" size="25" placeholder="Nombre" />
+					<input type="text" id="txtApellido" name="txtApellido" size="25" placeholder="Apellido" /></td>
+				</tr>
+				
+
+				<tr>
+					<td><strong>B. Domicilio - ciudad - Tel&eacute;lefono de Ref. en La Paz.</strong><br/>
+					<input type="text" name="txtDomicilio" id="txtDomicilio" size="25" placeholder="Domicilio" />
+					<input type="text" name="txtCiudad" id="txtCiudad" size="25" placeholder="Ciudad" />
+					<input type="text" name="txtTelefono" id="txtTelefono" size="25" placeholder="Teléfono" /></td>
+				</tr>
+
+				<tr>
+					<td><strong>C. DOCUMENTO: CI. <input type="number" name="txtCI" id="txtCI" size="10" placeholder="Cedula" /><br /><br />
+						Pasaporte <input type="text" name="txtPasaporte" id="txtPasaporte" size="10" placeholder="Pasaporte" /> 
+						RUN <input type="text" name="txtRun" id="txtRun" size="10" placeholder="RUN" /></strong></td>
+				</tr>
+
+				<tr>
+					<td><strong>D. NUMERO DOCUMENTO Y LUGAR EXPEDICI&Oacute;N: </strong><input type="text" name="txtNumDocLugarE" id="txtNumDocLugarE" size="25" placeholder=""/></td>
+				</tr>
+
+				<tr>
+					<td><strong>E. LUGAR DE NACIMIENTO: Fecha: <input type="date" name="txtFechaNac" id="txtFechaNac" size="10" placeholder="Fecha de nacimiento" /> 
+						Pa&iacute;s <input type="text" name="txtPais" id="txtPais" size="10" placeholder="Pais"/> <br />
+						Departamento: <input type="text" name="txtDepartamento" id="txtDepartamento" size="10" placeholder="Departamento"/> 
+						Provincia: <input type="text" name="txtProvincia" id="txtProvincia" size="10" placeholder="Provincia"/> <br />
+						Localidad: <input type="text" name="txtLocalidad" id="txtLocalidad" size="10" placeholder="Localidad"/></strong></td>
+				</tr>
+
+				<tr>
+					<td><h4>II.  &nbsp;&nbsp;<u>IDENTIFICI&Oacute;N ACADEMICA</u></h4></td>
+				</tr>
+
+				<tr>
+					<td><strong>A. UNIVERSIDAD QUE OTORG&Oacute; EL <u>DIPLOMA ACAD&Eacute;MICO</u> - Y A&Ntilde;O QUE FUE EXPEDIDO: </strong><br/>
+						<input type="text" name="txtUniversidadDipAcademico" id="txtUniversidadDipAcademico" size="45" placeholder="Universidad" />
+						<input type="number" name="txtAnioExpedido" id="txtAnioExpedido" size="45" placeholder="Año" /></td>
+				</tr>
+
+				<tr>
+					<td><strong>B. UNIVERSIDAD QUE OTORG&Oacute; EL <u>TITULO EN PROVISI&Oacute;N NACIONAL</u> - Y A&Ntilde;O EXPEDIDO: </strong><br/>
+						<input type="text" name="txtUniversidadTitPN" id="txtUniversidadTitPN" size="45" placeholder="Universidad" />
+						<input type="number" name="txtAnioExpedidoPN" id="txtAnioExpedidoPN" size="45" placeholder="Año" /></td>
+				</tr>
+
+				<tr>
+					<td><strong>C. DENOMINACI&Oacute;N: DEL DOCUMENTO EN PROVISI&Oacute;N NACIONAL: </strong><br/>
+						<input type="text" name="txtDenominacionPN" id="txtDenominacionPN" size="90" placeholder="Denominación"/></td>
+				</tr>
+
+				<tr>
+					<td><strong>D. UNID ACAD&Eacute;MICA DE POSTGRADO: <input type="text"  name="txtUnidadAcademicaPG" id="txtUnidadAcademicaPG" size="39" placeholder="Unidad academica" /><br/>
+						Fecha de Ingreso<input type="date" name="txtFechaIngreso" id="txtFechaIngreso" placeholder="Fecha ingreso" /> 
+						Fecha de Egreso <input type="date" name="txtFechaEgreso" id="txtFechaEgreso" placeholder="Fecha egreso" /></strong></td>
+				</tr>
+
+				<tr>
+					<td><strong>E. NUMERO DE REGISTRO DE LA UMFA: </strong><input type="text" name="txtNumRegistroUMFA" id="txtNumRegistroUMFA" size="37" placeholder="Numero de registro"/></td>
+				</tr>
+
+				<tr>
+					<td><strong>F. FECHA DE TRAMITE DEL DIPLOMA: </strong><input type="date" name="txtFechaTramiteDip" id="txtFechaTramiteDip" size="40" placeholder="Fecha de tramite"/></td>
+				</tr>
+
+				<tr>
+					<td><strong>G. NUMERO DE FOJAS: </strong><input type="text" name="txtNumFojas" id="txtNumFojas" size="60" placeholder="Numero de fojas"/></td>
+				</tr>
+			</table>
+			<br/>
+			<br/>
+			<!-- <h3>Firma del Solicitante</h3> -->
+			<input type="submit" class="btn btn-inverse btn-big" style="padding: 0.5em; cursor: pointer; font-size: 1em; border-radius: 0.5em;" value="Guardar formulario">
+			<br />
+		</center>
+	</form>
+</body>
+</html>

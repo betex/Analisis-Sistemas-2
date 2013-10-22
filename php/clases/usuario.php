@@ -54,6 +54,12 @@
 			return $sql;
 		}
 
+		public function cambiarPass($carnet,$contra)
+		{
+			$sql = sprintf("UPDATE usuario SET password = '%s' WHERE carnet = '%s'",$contra,$carnet);
+			return $sql;		
+		}
+
 	}	
 
 

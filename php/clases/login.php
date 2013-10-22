@@ -65,7 +65,7 @@
 			//$this->_pass = $this->cifrarPass($this->_pass);
 			if ($valor->password == $this->_pass) {
 				$this->crearSession($valor->carnet);
-				$_SESSION["nombre"] = $valor->nombres;
+				$_SESSION["nom"] = $valor->nombres;
 				$_SESSION["pass"] = $valor->password;
 				return true;
 			}
